@@ -50,12 +50,12 @@ export default function Player({
           </span>
         )}
 
-        <span className='flex size-7 items-center justify-center rounded border border-slate-400 p-1'>
+        <span className='font-rubik_mono box-border flex size-7 items-center justify-center rounded border border-slate-400 p-1'>
           {symbol}
         </span>
       </span>
       <button
-        className='flex size-7 cursor-pointer items-center justify-center rounded border border-slate-400 text-yellow-300 underline transition hover:text-yellow-400'
+        className='flex size-7 cursor-pointer items-center justify-center rounded border border-slate-400 text-yellow-300 underline transition hover:bg-slate-400/15 hover:text-yellow-400'
         title={isEditing ? 'Save' : 'Edit'}
         onClick={handleEditClick}
       >

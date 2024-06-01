@@ -21,7 +21,7 @@ export default function GameBoard({ onSelectCell, board }: GameBoardProps) {
                 className='mt-3'
               >
                 <button
-                  className='font-prata size-28 cursor-pointer rounded-md border border-slate-400 bg-slate-700 text-5xl font-bold text-white shadow-sm shadow-slate-100/10 transition hover:bg-slate-600/90'
+                  className='font-rubik_mono size-28 cursor-pointer rounded-md border border-slate-400 bg-slate-700 text-6xl text-white shadow-sm shadow-slate-100/10 transition hover:bg-slate-600/90'
                   onClick={() => {
                     onSelectCell(rowIndex, colIndex);
                   }}

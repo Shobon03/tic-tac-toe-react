@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        prata: 'Prata, sans-serif',
         inter: 'Inter, sans-serif',
         syne: 'Syne, sans-serif',
+        rubik_mono: 'Rubik Mono One, monospace',
       },
     },
   },
